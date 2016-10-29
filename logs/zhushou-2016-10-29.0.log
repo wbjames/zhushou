@@ -9923,3 +9923,17 @@ Caused by: org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的
 [ WARN ] [2016-10-29 23:31:14] com.wb.service.impl.ICollectSuitServiceImpl [56] - [collect suit info] == deviceType=1&method=suit.collectSuit&session=Ag0DAwdQBlcNAEsLAFxVBAUNB1YJDQAACVUFDVNSUgMDDFEEUFJTWlhSB04DDFFRBAdTAwAN&suitId=1450167484&version=10.2&userId=1416457446&viewUserId=1409503197
 [ WARN ] [2016-10-29 23:31:14] com.wb.service.impl.ICollectSuitServiceImpl [59] - [collect suit response] == {"result":0,"msg":{},"method":"suit.collectSuit","data":{"viewUserId":1409503197,"suitId":1450167484,"successed":true}}
 [ WARN ] [2016-10-29 23:31:14] com.wb.crontab.CollectSuitTask [84] - [taskID: 8] once done! suitId=1450167484   & userId=1416457446
+[ WARN ] [2016-10-29 23:32:14] com.wb.crontab.CollectSuitTask [67] - [taskID: 1]    viewUserId=1409503197 & suitId = 1450167804
+[ WARN ] [2016-10-29 23:32:14] com.wb.service.impl.ICollectSuitServiceImpl [56] - [collect suit info] == deviceType=1&method=suit.collectSuit&session=Ag0DAwdQCFEIAksGUAtSAlcFVwQOAwNXD1AAW1RXVgNXDFEDUFJUBg9SBk4DDFFRBABXAQEF&suitId=1450167804&version=10.2&userId=1416459214&viewUserId=1409503197
+[ WARN ] [2016-10-29 23:32:14] com.wb.service.impl.ICollectSuitServiceImpl [59] - [collect suit response] == {"result":0,"msg":{},"method":"suit.collectSuit","data":{"viewUserId":1409503197,"suitId":1450167804,"successed":true}}
+[ WARN ] [2016-10-29 23:32:14] com.wb.crontab.CollectSuitTask [84] - [taskID: 1] once done! suitId=1450167804   & userId=1416459214
+[ WARN ] [2016-10-29 23:32:14] com.wb.crontab.CollectSuitTask [67] - [taskID: 2]    viewUserId=1409503197 & suitId = 1450167560
+[ WARN ] [2016-10-29 23:32:14] com.wb.service.impl.ICollectSuitServiceImpl [56] - [collect suit info] == deviceType=1&method=suit.collectSuit&session=Ag0DAwdTBVAIBEtTVFlSXwBRAgheDQkBD1RQCVZVWwVXCVFWBABTAA8OD04DDFFRBAFVAAwF&suitId=1450167560&version=10.2&userId=1416464312&viewUserId=1409503197
+[ WARN ] [2016-10-29 23:32:15] com.wb.service.impl.ICollectSuitServiceImpl [59] - [collect suit response] == {"result":0,"msg":{},"method":"suit.collectSuit","data":{"viewUserId":1409503197,"suitId":1450167560,"successed":true}}
+[ WARN ] [2016-10-29 23:32:15] com.wb.crontab.CollectSuitTask [84] - [taskID: 2] once done! suitId=1450167560   & userId=1416464312
+[ WARN ] [2016-10-29 23:32:15] com.wb.crontab.CollectSuitTask [67] - [taskID: 8]    viewUserId=1409503197 & suitId = 1450167484
+[ WARN ] [2016-10-29 23:32:15] com.wb.service.impl.ICollectSuitServiceImpl [56] - [collect suit info] == deviceType=1&method=suit.collectSuit&session=Ag0DAwdTBVAIBEtTVFlSXwBRAgheDQkBD1RQCVZVWwVXCVFWBABTAA8OD04DDFFRBAFVAAwF&suitId=1450167484&version=10.2&userId=1416464312&viewUserId=1409503197
+[ WARN ] [2016-10-29 23:32:15] com.wb.service.impl.ICollectSuitServiceImpl [59] - [collect suit response] == {"result":0,"msg":{},"method":"suit.collectSuit","data":{"viewUserId":1409503197,"suitId":1450167484,"successed":true}}
+[ WARN ] [2016-10-29 23:32:15] com.wb.crontab.CollectSuitTask [84] - [taskID: 8] once done! suitId=1450167484   & userId=1416464312
+[ WARN ] [2016-10-29 23:33:15] com.wb.crontab.CollectSuitTask [67] - [taskID: 2]    viewUserId=1409503197 & suitId = 1450167560
+[ WARN ] [2016-10-29 23:33:15] com.wb.crontab.CollectSuitTask [67] - [taskID: 8]    viewUserId=1409503197 & suitId = 1450167484
