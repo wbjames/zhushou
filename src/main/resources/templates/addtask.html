@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta content="text/html;charset=UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+</head>
+<body>
+
+
+<form action="#" th:action="@{/typeIn}" th:object="${task}" method="post">
+    <p>地址: <input type="url" th:field="*{url}" required="required" style="width:80%"/></p>
+    <p>点赞次数: <input type="number" th:field="*{cnt}" required="required"/></p>
+    <p><input type="submit" value="创建任务"/> <input type="reset" value="重置"/></p>
+</form>
+
+</body>
+</html>
